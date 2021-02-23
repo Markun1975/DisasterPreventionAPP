@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F4DFA3AE25DEB6B20024356F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFA3AD25DEB6B20024356F /* AppDelegate.swift */; };
 		F4DFA3B025DEB6B20024356F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFA3AF25DEB6B20024356F /* SceneDelegate.swift */; };
-		F4DFA3B225DEB6B20024356F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFA3B125DEB6B20024356F /* ViewController.swift */; };
+		F4DFA3B225DEB6B20024356F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFA3B125DEB6B20024356F /* StartViewController.swift */; };
 		F4DFA3B525DEB6B20024356F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DFA3B325DEB6B20024356F /* Main.storyboard */; };
 		F4DFA3B725DEB6B40024356F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DFA3B625DEB6B40024356F /* Assets.xcassets */; };
 		F4DFA3BA25DEB6B40024356F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DFA3B825DEB6B40024356F /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		F4DFA3AA25DEB6B20024356F /* DisasterPreventionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisasterPreventionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DFA3AD25DEB6B20024356F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4DFA3AF25DEB6B20024356F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4DFA3B125DEB6B20024356F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4DFA3B125DEB6B20024356F /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		F4DFA3B425DEB6B20024356F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4DFA3B625DEB6B40024356F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4DFA3B925DEB6B40024356F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,9 +99,11 @@
 		F4DFA3AC25DEB6B20024356F /* DisasterPreventionApp */ = {
 			isa = PBXGroup;
 			children = (
+				F4DFA3E225E526370024356F /* ViewModel */,
+				F4DFA3E125E526280024356F /* Model */,
+				F4DFA3E025E526160024356F /* View */,
 				F4DFA3AD25DEB6B20024356F /* AppDelegate.swift */,
 				F4DFA3AF25DEB6B20024356F /* SceneDelegate.swift */,
-				F4DFA3B125DEB6B20024356F /* ViewController.swift */,
 				F4DFA3B325DEB6B20024356F /* Main.storyboard */,
 				F4DFA3B625DEB6B40024356F /* Assets.xcassets */,
 				F4DFA3B825DEB6B40024356F /* LaunchScreen.storyboard */,
@@ -126,6 +128,28 @@
 				F4DFA3D125DEB6B40024356F /* Info.plist */,
 			);
 			path = DisasterPreventionAppUITests;
+			sourceTree = "<group>";
+		};
+		F4DFA3E025E526160024356F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFA3B125DEB6B20024356F /* StartViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4DFA3E125E526280024356F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4DFA3E225E526370024356F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4DFA3B225DEB6B20024356F /* ViewController.swift in Sources */,
+				F4DFA3B225DEB6B20024356F /* StartViewController.swift in Sources */,
 				F4DFA3AE25DEB6B20024356F /* AppDelegate.swift in Sources */,
 				F4DFA3B025DEB6B20024356F /* SceneDelegate.swift in Sources */,
 			);
