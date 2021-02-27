@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F429554125EA871A003B7A04 /* CommonTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F429554025EA871A003B7A04 /* CommonTabBarController.swift */; };
+		F429554C25EA876A003B7A04 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F429554B25EA876A003B7A04 /* TimeLineViewController.swift */; };
 		F4DFA3AE25DEB6B20024356F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFA3AD25DEB6B20024356F /* AppDelegate.swift */; };
 		F4DFA3B025DEB6B20024356F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFA3AF25DEB6B20024356F /* SceneDelegate.swift */; };
 		F4DFA3B225DEB6B20024356F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFA3B125DEB6B20024356F /* StartViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F429554025EA871A003B7A04 /* CommonTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTabBarController.swift; sourceTree = "<group>"; };
+		F429554B25EA876A003B7A04 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 		F4DFA3AA25DEB6B20024356F /* DisasterPreventionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisasterPreventionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DFA3AD25DEB6B20024356F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4DFA3AF25DEB6B20024356F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F429553725EA8445003B7A04 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F429553925EA84D3003B7A04 /* common */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		F429553825EA8459003B7A04 /* res */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		F429553925EA84D3003B7A04 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFA3E025E526160024356F /* View */,
+				F4DFA3E125E526280024356F /* Model */,
+				F4DFA3E225E526370024356F /* ViewModel */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		F429553A25EA84F6003B7A04 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFA3B125DEB6B20024356F /* StartViewController.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		F429553B25EA85E9003B7A04 /* TimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				F429554B25EA876A003B7A04 /* TimeLineViewController.swift */,
+			);
+			path = TimeLine;
+			sourceTree = "<group>";
+		};
+		F429553C25EA85FE003B7A04 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		F429553D25EA862C003B7A04 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F429553E25EA8638003B7A04 /* ArCamera */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ArCamera;
+			sourceTree = "<group>";
+		};
+		F429553F25EA86A2003B7A04 /* CommonTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				F429554025EA871A003B7A04 /* CommonTabBarController.swift */,
+			);
+			path = CommonTabBarController;
+			sourceTree = "<group>";
+		};
 		F4DFA3A125DEB6B20024356F = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +173,8 @@
 		F4DFA3AC25DEB6B20024356F /* DisasterPreventionApp */ = {
 			isa = PBXGroup;
 			children = (
-				F4DFA3E225E526370024356F /* ViewModel */,
-				F4DFA3E125E526280024356F /* Model */,
-				F4DFA3E025E526160024356F /* View */,
+				F429553825EA8459003B7A04 /* res */,
+				F429553725EA8445003B7A04 /* src */,
 				F4DFA3AD25DEB6B20024356F /* AppDelegate.swift */,
 				F4DFA3AF25DEB6B20024356F /* SceneDelegate.swift */,
 				F4DFA3B325DEB6B20024356F /* Main.storyboard */,
@@ -133,7 +206,12 @@
 		F4DFA3E025E526160024356F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F4DFA3B125DEB6B20024356F /* StartViewController.swift */,
+				F429553A25EA84F6003B7A04 /* Start */,
+				F429553F25EA86A2003B7A04 /* CommonTabBarController */,
+				F429553B25EA85E9003B7A04 /* TimeLine */,
+				F429553C25EA85FE003B7A04 /* Menu */,
+				F429553D25EA862C003B7A04 /* Home */,
+				F429553E25EA8638003B7A04 /* ArCamera */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,8 +360,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F429554125EA871A003B7A04 /* CommonTabBarController.swift in Sources */,
 				F4DFA3B225DEB6B20024356F /* StartViewController.swift in Sources */,
 				F4DFA3AE25DEB6B20024356F /* AppDelegate.swift in Sources */,
+				F429554C25EA876A003B7A04 /* TimeLineViewController.swift in Sources */,
 				F4DFA3B025DEB6B20024356F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
