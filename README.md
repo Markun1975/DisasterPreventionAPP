@@ -1,3 +1,7 @@
+[![GitHub issues](https://img.shields.io/github/issues/Markun1975/DisasterPreventionApp)](https://github.com/Markun1975/DisasterPreventionApp/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Markun1975/DisasterPreventionApp)](https://github.com/Markun1975/DisasterPreventionApp/network)
+[![GitHub stars](https://img.shields.io/github/stars/Markun1975/DisasterPreventionApp)](https://github.com/Markun1975/DisasterPreventionApp/stargazers)
+[![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FMarkun1975%2FDisasterPreventionApp)
 # DisasterPreventionApp
 
 ## 開発目的
